@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Что выведет следующий код? 
+
+        let fruits = ["Яблоки", "Груша", "Апельсин"];
+
+        // добавляем новое значение в "копию"
+        let shoppingCart = fruits;
+        shoppingCart.push("Банан");
+        // что в fruits?
+        alert( fruits.length ); // ? --------------------длина массива, т.е. последний цифровой индекс плюс один.
+        
+        alert(fruits);
+    </script>
+</body>
+</html>
